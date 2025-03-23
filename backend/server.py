@@ -45,4 +45,4 @@ def mark_attendance_periodically():
 if __name__ == '__main__':
     thread = threading.Thread(target=mark_attendance_periodically, daemon=True)
     thread.start()
-    app.run(host="0.0.0.0",debug=DEBUG,PORT=5000)
+    app.run(host="0.0.0.0",debug=DEBUG,port=5000)
